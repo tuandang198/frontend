@@ -291,6 +291,7 @@ input {
   background-color: #ffffff;
 }
 .product-list .product-inner .product-img img {
+  width: 100%;
   margin-top: 17px;
 }
 .product-list .product-btn {
