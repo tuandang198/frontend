@@ -5,10 +5,14 @@
 		overflow: hidden;
 		&-item {
 			position: relative;
-			img {
-				width: 100%;
-				margin-top: -320px;
+			.slider-img {	
+				height: 100%;
+				img {
+					width: 100%;
+					margin-top: -320px;
+				}
 			}
+
 			.slider-content {
 				.row {
 					justify-content: space-between;
@@ -62,9 +66,13 @@
 				&-right {
 					// background-color: transparent;
 					transform: translate(9%, -104px);
-					img {
+					.slider-right-img{
+						img {
 						margin-top: 0;
+						width: 100%;
 					}
+					}
+					
 				}
 			}
 		}
