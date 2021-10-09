@@ -290,7 +290,10 @@ input {
   height: 230px;
   background-color: #ffffff;
 }
-.product-list .product-inner .product-img img {
+.product-list .product-inner .product-img div {
+  max-width: 200px;
+}
+.product-list .product-inner .product-img div img {
   width: 100%;
   margin-top: 17px;
 }
@@ -421,6 +424,9 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.branding-item img {
+  width: 100%;
 }
 .footer {
   background-color: #222222;
