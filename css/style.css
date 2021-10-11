@@ -268,16 +268,15 @@ input {
 .product-list .product-detail {
   display: block;
   margin-left: 29px;
-  margin-top: 22px;
+  margin-top: 34px;
 }
 .product-list .product {
   width: 25%;
   padding: 0 15px;
   box-sizing: border-box;
-  margin-top: 41px;
+  margin-top: 47px;
   position: relative;
   height: 330px;
-  margin-bottom: 6px;
 }
 .product-list .product-inner {
   width: 270px;
@@ -286,16 +285,18 @@ input {
   transition: 0.4s;
 }
 .product-list .product-inner .product-img {
-  width: 270px;
-  height: 230px;
-  background-color: #ffffff;
+  position: relative;
+  padding-bottom: 15%;
 }
-.product-list .product-inner .product-img div {
-  max-width: 200px;
-}
-.product-list .product-inner .product-img div img {
+.product-list .product-inner .product-img img {
+  object-fit: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
   width: 100%;
-  margin-top: 17px;
 }
 .product-list .product-btn {
   position: absolute;
